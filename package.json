@@ -1,0 +1,15 @@
+{
+  "name": "ronnys-kleines-helferdings",
+  "version": "1.0.0",
+  "description": "Ein Telegram Voicebot für Ronny",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.63.0",
+    "openai": "^4.0.0"
+  }
+}
